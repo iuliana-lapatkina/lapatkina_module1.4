@@ -109,9 +109,9 @@ a {
   margin-bottom: 268px;
 }
 
-.menu__item a:hover,
-.menu__item a:focus,
-.menu__item a:active {
+.menu__link:hover,
+.menu__link:focus,
+.menu__link:active {
   color: var(--color-secondary);
 }
 
@@ -130,9 +130,9 @@ a {
   margin: -4px 12px auto -24px;
 }
 
-.menu__link:hover::before,
-.menu__link:focus::before,
-.menu__link:active::before {
+.menu__item:hover::before,
+.menu__item:focus::before,
+.menu__item:active::before {
   background-color: #41f6d7;
 }
 
