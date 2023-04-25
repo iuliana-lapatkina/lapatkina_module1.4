@@ -91,9 +91,7 @@ a {
 .menu__button-search:focus,
 .menu__button-search:hover {
   transform: rotate(45deg) scale(1.1);
-  filter: saturate(600%);
-  filter: hue-rotate(0.65turn);
-
+  opacity: 0.8;
 }
 
 .menu__logo {
@@ -152,8 +150,8 @@ a {
 .menu__contacts-button:hover,
 .menu__contacts-button:focus,
 .menu__contacts-button:active {
-  opacity: 0.5;
-  transform: scale(0.9);
+  opacity: 0.8;
+  transform: scale(1.1);
 }
 
 .menu__contacts-item:not(:last-child) {
